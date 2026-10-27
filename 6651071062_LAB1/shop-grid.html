@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Cửa hàng | Bánh Miền Tây</title>
+    <link rel="stylesheet" href="Styles/style.css">
+  </head>
+  <body data-page="shop">
+    <div id="hdr"></div>
+    <div class="bc">
+      <h2>Cửa hàng</h2>
+      <p>
+        <a href="index.html">Trang chủ</a>
+        › Cửa hàng
+      </p>
+    </div>
+    <div class="c sec">
+      <div class="row" style="flex-wrap:nowrap;align-items:flex-start">
+        <div class="side">
+          <h4>Tìm kiếm</h4>
+          <input type="text" id="sq" placeholder="Tên bánh...">
+          <h4>Danh mục</h4>
+          <ul id="sc"></ul>
+          <h4>Giá</h4>
+          <select id="pr">
+            <option value="1000000000">Tất cả</option>
+            <option value="30000">Dưới 30.000đ</option>
+            <option value="50000">Dưới 50.000đ</option>
+            <option value="100000">Dưới 100.000đ</option>
+          </select>
+        </div>
+        <div class="main">
+          <div class="sort">
+            <span>
+              Sắp xếp:
+              <select id="so">
+                <option value="">Mặc định</option>
+                <option value="a">Giá tăng dần</option>
+                <option value="d">Giá giảm dần</option>
+              </select>
+            </span>
+            <span id="cn"></span>
+          </div>
+          <div class="grid" id="sg"></div>
+        </div>
+      </div>
+    </div>
+    <div id="ftr"></div>
+    <script src="Scripts/data.js"></script>
+    <script src="Scripts/main.js"></script>
+  </body>
+</html>

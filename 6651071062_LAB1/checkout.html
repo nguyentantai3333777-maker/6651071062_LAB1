@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Thanh toán | Bánh Miền Tây</title>
+    <link rel="stylesheet" href="Styles/style.css">
+  </head>
+  <body data-page="checkout">
+    <div id="hdr"></div>
+    <div class="bc">
+      <h2>Thanh toán</h2>
+      <p>
+        <a href="index.html">Trang chủ</a>
+        › Thanh toán
+      </p>
+    </div>
+    <div class="c sec">
+      <form id="co" class="row fm">
+        <div style="flex:2;min-width:300px">
+          <h3>Thông tin thanh toán</h3>
+          <br>
+          <input id="nm" placeholder="Họ và tên" required>
+          <input placeholder="Địa chỉ giao hàng" required>
+          <input placeholder="Số điện thoại" required>
+          <input type="email" placeholder="Email">
+          <textarea rows="3" placeholder="Ghi chú đơn hàng"></textarea>
+          <select>
+            <option>Thanh toán khi nhận hàng (COD)</option>
+            <option>Chuyển khoản ngân hàng</option>
+            <option>Ví MoMo</option>
+          </select>
+        </div>
+        <div class="box" style="flex:1;min-width:260px">
+          <h4>Đơn hàng của bạn</h4>
+          <ul id="os"></ul>
+          <br>
+          <button class="btn" style="width:100%">Đặt hàng</button>
+        </div>
+      </form>
+    </div>
+    <div id="ftr"></div>
+    <script src="Scripts/data.js"></script>
+    <script src="Scripts/main.js"></script>
+  </body>
+</html>

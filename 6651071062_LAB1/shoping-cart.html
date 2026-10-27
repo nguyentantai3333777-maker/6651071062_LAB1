@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Giỏ hàng | Bánh Miền Tây</title>
+    <link rel="stylesheet" href="Styles/style.css">
+  </head>
+  <body data-page="cart">
+    <div id="hdr"></div>
+    <div class="bc">
+      <h2>Giỏ hàng</h2>
+      <p>
+        <a href="index.html">Trang chủ</a>
+        › Giỏ hàng
+      </p>
+    </div>
+    <div class="c sec">
+      <table>
+        <thead>
+          <tr>
+            <th>Sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Thành tiền</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="ct"></tbody>
+      </table>
+      <div style="margin:20px 0">
+        <a class="btn" href="shop-grid.html">Tiếp tục mua</a>
+      </div>
+      <div class="row">
+        <div class="box" style="flex:1">
+          <h4>Mã giảm giá</h4>
+          <br>
+          <input id="cp" placeholder="Thử: MIENTAY10" style="padding:10px">
+          <button class="btn" onclick="coupon()">Áp dụng</button>
+        </div>
+        <div class="box" style="flex:1">
+          <h4>Tổng giỏ hàng</h4>
+          <ul>
+            <li>
+              <span>Tổng cộng</span>
+              <b class="g" id="tt"></b>
+            </li>
+          </ul>
+          <br>
+          <a class="btn" href="checkout.html">Thanh toán</a>
+        </div>
+      </div>
+    </div>
+    <div id="ftr"></div>
+    <script src="Scripts/data.js"></script>
+    <script src="Scripts/main.js"></script>
+  </body>
+</html>

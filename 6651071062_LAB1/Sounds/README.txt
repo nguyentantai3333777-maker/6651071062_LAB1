@@ -1,0 +1,1 @@
+Thư mục lưu file âm thanh (.mp3). Web hiện phát tiếng 'ting' bằng WebAudio khi thêm giỏ hàng; có thể thêm file .mp3 vào đây.

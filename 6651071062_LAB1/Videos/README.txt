@@ -1,0 +1,1 @@
+Đặt video demo (.mp4) vào đây rồi upload cùng repository.
